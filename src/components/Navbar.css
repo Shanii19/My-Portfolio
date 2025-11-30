@@ -1,0 +1,79 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    pointer-events: none;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    pointer-events: auto;
+    width: 100%;
+    max-width: 1200px;
+    /* Match hero max-width */
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav-link:hover {
+    color: var(--spring-green);
+}
+
+.nav-link.active {
+    color: var(--spring-green);
+    font-weight: 600;
+}
+
+.nav-underline {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--spring-green);
+    border-radius: 2px;
+    box-shadow: 0 0 10px var(--spring-green);
+}
+
+.theme-toggle {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--spring-green);
+    transform: rotate(15deg);
+}

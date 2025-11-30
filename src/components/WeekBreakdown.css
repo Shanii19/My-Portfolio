@@ -1,0 +1,45 @@
+.week-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.week-item {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.week-header h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--spring-green);
+    border-radius: 4px;
+    box-shadow: 0 0 10px var(--spring-green);
+}
+
+.week-desc {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
