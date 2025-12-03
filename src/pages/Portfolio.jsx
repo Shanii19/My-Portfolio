@@ -10,13 +10,15 @@ import aiCodeExplainerImg from '../assets/ai_code_explainer.png';
 import paralegalAiImg from '../assets/paralegal_ai.png';
 import appointmentAutomationImg from '../assets/appointment_automation.png';
 import chatTriggerImg from '../assets/chat_trigger_automation.png';
+import aiStudyNotesMakerImg from '../assets/ai_study_notes_maker.png';
 
 const projectsData = [
     { id: 1, title: 'TaskFlow---Team-Task-Management-Application', category: 'Web App', color: '#3f5e5a', Github: 'https://github.com/Shanii19/TaskFlow---Team-Task-Management-Application', live_link: 'https://taskflowbyshayan.lovable.app/dashboard', image: taskflowImg },
     { id: 2, title: 'AI_CODE_EXPLAINER', category: 'Web app', color: '#353831', Github: 'https://github.com/Shanii19/AI_CODE_EXPLAINER', live_link: 'https://ai-code-explainer-black.vercel.app/', image: aiCodeExplainerImg },
     { id: 3, title: 'Paralegal AI', category: 'AI', color: '#20fc8f', Github: 'https://github.com/Shanii19/-Paralegal-AI', live_link: 'https://paralegal-ai.streamlit.app/', image: paralegalAiImg },
     { id: 4, title: 'Appointment automation agent in N8n', category: 'AI', color: '#38423b', link: 'https://shanny19ai.app.n8n.cloud/webhook/df909810-db3f-4317-8b2d-daa781a5b7b6/chat', image: appointmentAutomationImg },
-    { id: 5, title: 'Chat Trigger Image Fetch Automation in n8n', category: 'AI', color: '#2d2d2a', link: 'https://shanny19ai.app.n8n.cloud/webhook/fbfb15c9-80ea-42fd-b625-4c785b2eb4ac/chat', image: chatTriggerImg }
+    { id: 5, title: 'Chat Trigger Image Fetch Automation in n8n', category: 'AI', color: '#2d2d2a', link: 'https://shanny19ai.app.n8n.cloud/webhook/fbfb15c9-80ea-42fd-b625-4c785b2eb4ac/chat', image: chatTriggerImg },
+    { id: 6, title: 'AI Study Notes Maker', category: 'Web App', color: '#2d2d2a', Github: 'https://github.com/Shanii19/AI-Study-Notes-Maker', live_link: 'https://ai-study-notes-maker.vercel.app/', image: aiStudyNotesMakerImg }
 ];
 
 const weeksData = [
